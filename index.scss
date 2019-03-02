@@ -1,3 +1,31 @@
-h1{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Roboto:400,700');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.24);
+    display: block;
+    #nav-container{
+        margin: 5px 30px;
+        display: flex;
+        justify-content: space-between;
+        #logo{
+            width: 40px;
+            height: 40px;
+        }
+        #nav-links{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .link{
+                margin: 0 10px;
+                height: fit-content;
+                font-size: 25px;
+                font-family: 'Carter One', cursive;
+                color: white;
+            }
+        }
+    }
 }
