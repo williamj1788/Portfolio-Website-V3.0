@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website-v3",
+  "version": "1.0.0",
+  "description": "Version three of Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamj1788/Portfolio-Website-V3.0.git"
+  },
+  "author": "Jacquez Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamj1788/Portfolio-Website-V3.0/issues"
+  },
+  "homepage": "https://github.com/williamj1788/Portfolio-Website-V3.0#readme"
+}
