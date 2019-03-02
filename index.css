@@ -61,4 +61,51 @@ nav #nav-container #nav-links .link {
   top: 700px;
 }
 
+.heading {
+  font-family: "Carter One", cursive;
+  font-size: 50px;
+  color: #545454;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#about .description {
+  font-size: 24px;
+  width: 716px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#about .sub-heading {
+  font-family: "Carter One", cursive;
+  font-size: 40px;
+  color: #545454;
+  text-align: center;
+  margin: 30px 0;
+}
+#about #interests-container {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#about #interests-container .interest {
+  padding: 0 20px;
+}
+#about #interests-container .interest .interest-header {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #545454;
+}
+#about #interests-container .interest .interest-info {
+  font-size: 18px;
+  text-align: center;
+}
+
+#skills {
+  background-color: #8B8B8B;
+}
+
 /*# sourceMappingURL=index.css.map */
