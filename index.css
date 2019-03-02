@@ -67,7 +67,8 @@ nav #nav-container #nav-links .link {
   font-size: 50px;
   color: #545454;
   text-align: center;
-  margin: 30px 0;
+  padding: 20px 0;
+  margin: 0;
 }
 
 #about .description {
@@ -111,7 +112,7 @@ nav #nav-container #nav-links .link {
 #skills .heading {
   color: white;
   margin: 0;
-  padding-top: 20px;
+  padding-bottom: 0;
 }
 #skills #skills-container {
   display: grid;
@@ -133,6 +134,8 @@ nav #nav-container #nav-links .link {
   text-align: center;
   margin: auto;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 #skills #skills-container .Html {
   grid-area: Html;
@@ -169,6 +172,38 @@ nav #nav-container #nav-links .link {
 }
 #skills #skills-container .Javascript {
   grid-area: Javascript;
+}
+
+#projects #project-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#projects #project-container .project {
+  width: 222px;
+  height: fit-content;
+  border: 1px solid #5454547a;
+}
+#projects #project-container .project .project-header {
+  width: 100%;
+  height: 34px;
+  color: #545454;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+}
+#projects #project-container .project .project-img {
+  width: 100%;
+  height: auto;
+}
+#projects #project-container .project .project-description {
+  margin: 0;
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=index.css.map */
