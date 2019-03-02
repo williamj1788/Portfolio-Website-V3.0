@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Carter+One|Roboto:400,700");
 body {
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 nav {
@@ -106,6 +107,68 @@ nav #nav-container #nav-links .link {
 
 #skills {
   background-color: #8B8B8B;
+}
+#skills .heading {
+  color: white;
+  margin: 0;
+  padding-top: 20px;
+}
+#skills #skills-container {
+  display: grid;
+  width: 850px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 20px 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-areas: "Html Html Html Html Html Html Html Html Html Html Html Html" "CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS" "Bootstrap Bootstrap Bootstrap Responsive Responsive Responsive Animation Animation Animation SCSS SCSS SCSS" "Javascript Javascript Javascript Javascript Javascript Javascript Javascript Javascript Javascript Javascript Javascript Javascript" "Node Node Node Node React React React React Express Express Express Express" "Github Github Github Github Github Github Git Git Git Git Git Git";
+}
+#skills #skills-container .skill {
+  background-color: #292929;
+  display: flex;
+}
+#skills #skills-container .skill p {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+#skills #skills-container .Html {
+  grid-area: Html;
+}
+#skills #skills-container .CSS {
+  grid-area: CSS;
+}
+#skills #skills-container .Bootstrap {
+  grid-area: Bootstrap;
+}
+#skills #skills-container .Responsive {
+  grid-area: Responsive;
+}
+#skills #skills-container .Animation {
+  grid-area: Animation;
+}
+#skills #skills-container .SCSS {
+  grid-area: SCSS;
+}
+#skills #skills-container .Node {
+  grid-area: Node;
+}
+#skills #skills-container .React {
+  grid-area: React;
+}
+#skills #skills-container .Express {
+  grid-area: Express;
+}
+#skills #skills-container .Github {
+  grid-area: Github;
+}
+#skills #skills-container .Git {
+  grid-area: Git;
+}
+#skills #skills-container .Javascript {
+  grid-area: Javascript;
 }
 
 /*# sourceMappingURL=index.css.map */
