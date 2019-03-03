@@ -36,27 +36,28 @@ nav{
     background-image: url(./Img/Background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    .title{
-        margin: 0;
-        color: white;
-        font-size: 78px;
-        font-family: 'Carter One', cursive;
-        display: block;
-        text-align: center;
-        position: relative;
-        top: 300px;
-    }
-    .sub{
-        font-size: 30px;
-        top: 350px;
-    }
-    #page-down-icon{
-        display: block;
-        height: 50px;
-        width: auto;
-        margin: 0 auto;
-        position: relative;
-        top: 700px;
+    background-position: center;
+    #hero-container{
+
+        .title{
+            margin: 0;
+            color: white;
+            font-size: 78px;
+            font-family: 'Carter One', cursive;
+            display: block;
+            text-align: center;
+            // position: relative;
+        }
+        .sub{
+            font-size: 30px;
+        }
+        #page-down-icon{
+            display: block;
+            height: 50px;
+            width: auto;
+            margin: 0 auto;
+            // position: relative;
+        } 
     }
 }
 .heading{
@@ -86,6 +87,7 @@ nav{
         display: flex;
         width: 100%;
         max-width: 1000px;
+        
         margin: 0 auto;
         justify-content: space-between;
         .interest{
@@ -105,6 +107,7 @@ nav{
 }
 #skills{
     background-color: #8B8B8B;
+    height: fit-content;
     .heading{
         color: white;
         margin: 0;
@@ -114,6 +117,8 @@ nav{
         display: grid;
         width: 850px;
         height: 270px;
+        transition: 1s;
+        min-height: fit-content;
         margin: 0 auto;
         padding: 20px 0;
         grid-template-columns: repeat(12, 1fr);
@@ -185,9 +190,11 @@ nav{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        margin-bottom: 20px;
         .project{
             width: 222px;
             height: fit-content;
+            margin: 10px 0;
             border: 1px solid #5454547a;
             .project-header{
                 width: 100%;
@@ -209,5 +216,64 @@ nav{
                 padding: 0 10px;
             }
         }
+    }
+}
+#contact{
+    background-color: #8B8B8B;
+    height: 500px;
+    .heading{
+        color: white;
+    }
+    #icon-container{
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        margin: 0 auto;
+        .icon{
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+        }
+    }
+}
+@media(max-width: 700px){
+    #interests-container{
+        flex-direction: column;
+        body .interest{
+            width: 100%;
+            max-width: 500px;
+            padding: 0;
+            margin: 0 auto;
+        }
+    }
+    #about{
+        .description{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 870px){
+    #skills{
+        #skills-container{
+            width: 100%;
+            max-width: 400px;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(12, 45px);
+            grid-template: 
+            "Html"
+            "CSS"
+            "Bootstrap"
+            "Responsive"
+            "Animation"
+            "SCSS"
+            "Javascript"
+            "Node"
+            "React"
+            "Express"
+            "Github"
+            "Git";
+        }
+
     }
 }
