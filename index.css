@@ -82,27 +82,30 @@ nav #nav-container #nav-links .link {
 
 #about .description {
   font-size: 24px;
-  width: 716px;
+  width: 100%;
+  max-width: 716px;
   display: block;
   margin: 0 auto;
   text-align: center;
+  color: #707070;
 }
 #about .sub-heading {
   font-family: "Carter One", cursive;
   font-size: 40px;
-  color: #545454;
+  color: #707070;
   text-align: center;
   margin: 30px 0;
 }
 #about #interests-container {
   display: flex;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   justify-content: space-between;
 }
 #about #interests-container .interest {
   padding: 0 20px;
+  width: 325px;
 }
 #about #interests-container .interest .interest-header {
   font-size: 25px;
@@ -113,6 +116,7 @@ nav #nav-container #nav-links .link {
 #about #interests-container .interest .interest-info {
   font-size: 18px;
   text-align: center;
+  color: #707070;
 }
 
 #skills {
@@ -228,7 +232,7 @@ nav #nav-container #nav-links .link {
 }
 #projects #project-container .project .button-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: fit-content;
   padding: 10px;
 }
@@ -269,17 +273,18 @@ nav #nav-container #nav-links .link {
 }
 
 @media (max-width: 700px) {
-  #interests-container {
+  #about #interests-container {
     flex-direction: column;
   }
-  #interests-container body .interest {
+  #about #interests-container .interest {
+    padding: 0;
+    margin: 0 auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     padding: 0;
     margin: 0 auto;
   }
-
-  #about .description {
+  #about #about .description {
     width: 100%;
   }
 }

@@ -79,27 +79,29 @@ nav{
 #about{
     .description{
         font-size: 24px;
-        width: 716px;
+        width: 100%;
+        max-width: 716px;
         display: block;
         margin: 0 auto;
         text-align: center;
+        color: #707070;
     }
     .sub-heading{
         font-family: 'Carter One', cursive;
         font-size: 40px;
-        color: #545454;
+        color: #707070;
         text-align: center;
         margin: 30px 0;
     }
     #interests-container{
         display: flex;
         width: 100%;
-        max-width: 1000px;
-        
+        max-width: 1100px;
         margin: 0 auto;
         justify-content: space-between;
         .interest{
             padding: 0 20px;
+            width: 325px;
             .interest-header{
                 font-size: 25px;
                 font-weight: bold;
@@ -109,6 +111,7 @@ nav{
             .interest-info{
                 font-size: 18px;
                 text-align: center;
+                color: #707070;
             } 
         }
     }
@@ -233,7 +236,7 @@ nav{
             }
             .button-container{
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 height: fit-content;
                 padding: 10px;
                 .button{
@@ -275,18 +278,22 @@ nav{
     }
 }
 @media(max-width: 700px){
-    #interests-container{
-        flex-direction: column;
-        body .interest{
-            width: 100%;
-            max-width: 500px;
-            padding: 0;
-            margin: 0 auto;
-        }
-    }
     #about{
-        .description{
-            width: 100%;
+        #interests-container{
+            flex-direction: column;
+            .interest{
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 400px;
+                padding: 0;
+                margin: 0 auto;
+            }
+        }
+        #about{
+            .description{
+                width: 100%;
+            }
         }
     }
 }
