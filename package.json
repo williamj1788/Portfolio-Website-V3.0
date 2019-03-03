@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/williamj1788/Portfolio-Website-V3.0/issues"
   },
-  "homepage": "https://github.com/williamj1788/Portfolio-Website-V3.0#readme"
+  "homepage": "https://github.com/williamj1788/Portfolio-Website-V3.0#readme",
+  "dependencies": {
+    "sal.js": "^0.5.0"
+  }
 }
