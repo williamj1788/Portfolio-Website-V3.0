@@ -39,6 +39,14 @@ nav #nav-container #nav-links .link {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+#hero #hero-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
 }
 #hero #hero-container .title {
   margin: 0;
@@ -50,12 +58,17 @@ nav #nav-container #nav-links .link {
 }
 #hero #hero-container .sub {
   font-size: 30px;
+  padding-top: 15px;
 }
-#hero #hero-container #page-down-icon {
+#hero #page-down-icon {
   display: block;
   height: 50px;
   width: auto;
   margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .heading {

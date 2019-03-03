@@ -37,8 +37,12 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
     #hero-container{
-
+        position: absolute;
+        top: 40%; left: 50%;
+        transform: translate(-50%,-50%);
+        width: fit-content;
         .title{
             margin: 0;
             color: white;
@@ -50,15 +54,19 @@ nav{
         }
         .sub{
             font-size: 30px;
+            padding-top: 15px;
         }
-        #page-down-icon{
-            display: block;
-            height: 50px;
-            width: auto;
-            margin: 0 auto;
-            // position: relative;
-        } 
     }
+    #page-down-icon{
+        display: block;
+        height: 50px;
+        width: auto;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%);
+    } 
 }
 .heading{
     font-family: 'Carter One', cursive;
