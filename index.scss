@@ -125,7 +125,7 @@ nav{
         display: grid;
         width: 850px;
         height: 270px;
-        transition: 1s;
+        // transition: 1s;
         min-height: fit-content;
         margin: 0 auto;
         padding: 20px 0;
@@ -143,7 +143,9 @@ nav{
 
         .skill{
             background-color: #292929;
+            border:2px solid #292929;
             display: flex;
+            transition: 0.5s;
             p{
                 text-align: center;
                 margin: auto;
@@ -151,6 +153,9 @@ nav{
                 font-weight: bold;
                 font-size: 20px;
             }
+        }
+        .skill:hover{
+            background-color: #686868;
         }
         .Html{
             grid-area: Html;
@@ -222,6 +227,8 @@ nav{
             .project-description{
                 margin: 0;
                 padding: 0 10px;
+                font-size: 20px;
+                color: #545454;
             }
         }
     }

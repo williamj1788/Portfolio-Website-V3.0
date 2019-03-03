@@ -128,7 +128,6 @@ nav #nav-container #nav-links .link {
   display: grid;
   width: 850px;
   height: 270px;
-  transition: 1s;
   min-height: fit-content;
   margin: 0 auto;
   padding: 20px 0;
@@ -140,7 +139,9 @@ nav #nav-container #nav-links .link {
 }
 #skills #skills-container .skill {
   background-color: #292929;
+  border: 2px solid #292929;
   display: flex;
+  transition: 0.5s;
 }
 #skills #skills-container .skill p {
   text-align: center;
@@ -148,6 +149,9 @@ nav #nav-container #nav-links .link {
   color: white;
   font-weight: bold;
   font-size: 20px;
+}
+#skills #skills-container .skill:hover {
+  background-color: #686868;
 }
 #skills #skills-container .Html {
   grid-area: Html;
@@ -218,6 +222,8 @@ nav #nav-container #nav-links .link {
 #projects #project-container .project .project-description {
   margin: 0;
   padding: 0 10px;
+  font-size: 20px;
+  color: #545454;
 }
 
 #contact {
