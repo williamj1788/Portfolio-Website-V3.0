@@ -205,7 +205,7 @@ nav{
         flex-wrap: wrap;
         margin-bottom: 20px;
         .project{
-            width: 222px;
+            width: 250px;
             height: fit-content;
             margin: 10px 0;
             border: 1px solid #5454547a;
@@ -229,6 +229,30 @@ nav{
                 padding: 0 10px;
                 font-size: 20px;
                 color: #545454;
+                text-align: center;
+            }
+            .button-container{
+                display: flex;
+                justify-content: space-between;
+                // width: 100%;
+                height: fit-content;
+                padding: 10px;
+                .button{
+                    width: 100px;
+                    min-width: fit-content;
+                    height: 50px;
+                    background-color: #222222;
+                    outline: none;
+                    color: white;
+                    font-weight: bold;
+                    border: 0;
+                    border-radius: 5px;
+                    transition: 0.5s;
+                }
+                .button:hover{
+                    background-color: #7a7a7a;
+                    cursor: pointer;
+                }
             }
         }
     }

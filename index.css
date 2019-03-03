@@ -200,7 +200,7 @@ nav #nav-container #nav-links .link {
   margin-bottom: 20px;
 }
 #projects #project-container .project {
-  width: 222px;
+  width: 250px;
   height: fit-content;
   margin: 10px 0;
   border: 1px solid #5454547a;
@@ -224,6 +224,29 @@ nav #nav-container #nav-links .link {
   padding: 0 10px;
   font-size: 20px;
   color: #545454;
+  text-align: center;
+}
+#projects #project-container .project .button-container {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 10px;
+}
+#projects #project-container .project .button-container .button {
+  width: 100px;
+  min-width: fit-content;
+  height: 50px;
+  background-color: #222222;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#projects #project-container .project .button-container .button:hover {
+  background-color: #7a7a7a;
+  cursor: pointer;
 }
 
 #contact {
