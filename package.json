@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -c-1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/williamj1788/Portfolio-Website-V3.0#readme",
   "dependencies": {
-    "sal.js": "^0.5.0",
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
     "ez.js": "^1.0.3",
-    "http-server": "^0.11.1",
-    "jump.js": "^1.0.2"
+    "jump.js": "^1.0.2",
+    "nodemon": "^1.18.10",
+    "sal.js": "^0.5.0",
+    "serve-static": "^1.13.2"
   }
 }
