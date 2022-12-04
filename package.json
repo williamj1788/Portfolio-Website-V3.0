@@ -19,7 +19,7 @@
   "homepage": "https://github.com/williamj1788/Portfolio-Website-V3.0#readme",
   "dependencies": {
     "connect": "^3.6.6",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "ez.js": "^1.0.3",
     "jump.js": "^1.0.2",
     "nodemon": "^1.18.10",
